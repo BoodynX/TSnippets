@@ -1,3 +1,12 @@
+/*
+Alternative to a type of function
+
+interface UserFactory {
+  (name: string, age: number) => User
+}
+
+*/
+
 type userFactory = (name: string, age: number) => User
 
 class User {
