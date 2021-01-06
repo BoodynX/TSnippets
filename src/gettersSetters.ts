@@ -1,4 +1,4 @@
-class Car {
+class Auto {
     private _model!: string;
 
     get model(): string {
@@ -13,6 +13,6 @@ class Car {
     }
 }
 
-let car = new Car('Duster')
+let car = new Auto('Duster')
 
 console.log(car.model)
